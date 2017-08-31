@@ -376,8 +376,8 @@ public class AddressBook {
         final String commandType = commandTypeAndParams[0];
         final String commandArgs = commandTypeAndParams[1];
         switch (commandType) {
-            case COMMAND_DELETE_NAME_WORD:
-                return executeDeletePersonByName(commandArgs);
+        case COMMAND_DELETE_NAME_WORD:
+            return executeDeletePersonByName(commandArgs);
         case COMMAND_ADD_WORD:
             return executeAddPerson(commandArgs);
         case COMMAND_FIND_WORD:
